@@ -7,21 +7,10 @@
 
 namespace CSD3354_2_Assignment_2_C0731812
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            DelegateExercises delegateExercises = new DelegateExercises();
-
-            delegateExercises.Method2();
-        }
-    }
-
-
     public class DelegateExercises
     {
         public delegate void MyDelegate();
-        void Method1()
+        void Method1(int i)
         {
             Console.WriteLine("Method1");
             Console.ReadLine();
