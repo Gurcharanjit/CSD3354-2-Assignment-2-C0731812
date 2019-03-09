@@ -17,7 +17,7 @@ namespace CSD3354_2_Assignment_2_C0731812
         }
     }
 
-    public delegate int MyDelegate(out int i);
+    public delegate int MyDelegate(out int i); 
 
     public class DelegateExercises
     {
